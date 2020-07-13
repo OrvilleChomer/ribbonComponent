@@ -1,0 +1,144 @@
+/*
+ */
+
+ .ribbonO {
+    box-sizing: border-box;
+    position:absolute;
+    left:0px;
+    top:0px;
+    height:116px;
+    width:1000px;
+    background:#BFDBFF;
+    overflow:hidden;
+    border-top:solid #AECDF4 .5px;
+    border-top:solid #96ABC6 .5px;
+    padding:0px;
+    margin:0px;
+ }
+
+ .ribbonTab {
+    box-sizing: border-box;
+    position:absolute;
+    overflow:hidden;
+    top:3px;
+    height:23px;
+    line-height:23px;
+    min-width:36px;
+    text-align:center;
+    font-family:Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; 
+    font-size:8.7pt;
+    color:#15428B;
+    cursor:pointer;
+    z-index:1;
+ }
+
+ .ribbonTabSel {
+    box-sizing: border-box;
+    position:absolute;
+    overflow:hidden;
+    top:3px;
+    height:23px;
+    line-height:23px;
+    min-width:36px;
+    text-align:center;
+    font-family:Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; 
+    font-size:8.75pt;
+    color:#15428B;
+    background:#F7FAFF;
+    background: linear-gradient(0deg, #DFEEF8 0%, #F7FAFF 80%);
+    border-top:solid #8FB4E4 1px;
+    border-left:solid #8FB4E4 1px;
+    border-right:solid #8FB4E4 1px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    cursor:default;
+    z-index:3;
+ }
+
+
+ .ribbonTabContentContainer {
+    box-sizing: border-box;
+    position:absolute;
+    overflow:hidden;
+    left:2px;
+    top:25px;
+    height:89px;
+    z-index:2;
+    background:#DFEEF8;
+    border:solid #8FB4E4 1px;
+    border-radius:5px;
+ }
+
+ .ribbonTabGroup {
+    box-sizing: border-box;
+    position:absolute;
+    overflow:hidden;
+    min-width:80px;
+    border-radius:3px;
+    background: linear-gradient(0deg, #DFEEF8 0%, #F7FAFF 80%);
+    border:solid #C5D2DF 1px;
+    top:3px;
+    height:82px;
+    
+ }
+
+ .ribbonTabGroupCaption {
+   position:absolute;
+   height:15px;
+   line-height:15px;
+   cursor:default;
+   overflow:hidden;
+   width:100%;
+   bottom:0px;
+   text-align:center;
+   font-family:Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; 
+   font-size:8.5pt;
+   background:#BFD6EF;
+   color:#15428B;
+   box-sizing: border-box;
+   user-select: none;
+ }
+
+ .ribbonLargeButton {
+   position:absolute;
+   background: linear-gradient(0deg, #DFEEF8 0%, #F7FAFF 80%);
+   width:50px;
+   height:50px;
+   box-sizing: border-box;
+   border-radius:3px;
+   padding:0px;
+   margin:0px;
+   cursor:pointer;
+   overflow:hidden;
+ }
+
+ .ribbonLargeButton:hover {
+   background: linear-gradient(0deg, rgb(148, 177, 197) 0%, rgb(121, 132, 150) 80%);
+ }
+
+ .ribbonLargeButtonCaption {
+   position:absolute;
+   left:0px;
+   width:50px;
+   box-sizing: border-box;
+   height:15px;
+   line-height:15px;
+   bottom:0px;
+   text-align:center;
+   color:#15428B;
+   font-family:Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; 
+   font-size:8.5pt;
+   cursor:default;
+   cursor:pointer;
+   overflow:hidden;
+ }
+
+
+ #ribbonTextCheck {
+     position:absolute;
+     visibility:hidden;
+     height:auto;
+     width:auto;
+     white-space:nowrap;
+     font-size:10pt;
+ }
